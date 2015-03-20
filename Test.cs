@@ -18,8 +18,8 @@ namespace Algorithms
 		[Test ()]
 		public void TestSorting ()
 		{
-			var input = new [] { 2, 1, 3 };
-			var sortedInput = new [] { 1, 2, 3 };
+			var input = new [] { 2, 1, 3, 7, 5 };
+			var sortedInput = new [] { 1, 2, 3, 5, 7};
 			var mergeSort = new MergeSort<int>(input);
 			var sortedOutput = mergeSort.Sort(mergeSort.InputArray);
 
